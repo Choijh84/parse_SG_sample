@@ -16,7 +16,7 @@ var api = new ParseServer({
   appId: 'myAppSG',
   masterKey: 'SERVICEGENIUS', // Keep this key secret!
   fileKey: 'optionalFileKey',
-  serverURL: 'http://localhost:1337/parse' // Don't forget to change to https if needed
+  serverURL: 'http://parse-on-sg.azurewebsites.net/parse' // Don't forget to change to https if needed
 });
 
 app.use('/public', express.static(__dirname + '/public'));
