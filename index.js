@@ -12,7 +12,7 @@ var app = express();
 
 var api = new ParseServer({
   databaseURI: 'mongodb://ourpro:choi119%21@ds052819.mlab.com:52819/sgsampletest', // Connection string for your MongoDB database
-  cloud: '/home/myApp/cloud/main.js', // Absolute path to your Cloud Code
+  cloud: '/cloud/main.js', // Absolute path to your Cloud Code
   appId: 'myAppSG',
   masterKey: 'SERVICEGENIUS', // Keep this key secret!
   fileKey: 'optionalFileKey',
